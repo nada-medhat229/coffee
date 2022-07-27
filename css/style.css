@@ -101,6 +101,10 @@ nav{
   align-items: center;
   font-size: 2.5rem;
   list-style: none;
+  padding-bottom: 2rem;
+  padding-top: 4.5rem;
+  position: absolute;
+  right: 3%;
 }
 .signup .nav-item .nav-link {
   color: #fff;
@@ -470,7 +474,9 @@ object-fit: cover;
     }
     .signup {
       padding-bottom: 2rem;
-      padding-top: 4rem;
+      padding-top: 4.5rem;
+      position: absolute;
+      right: 3%;
     }
   .navbar > .container > img {
     display: block;
