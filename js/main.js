@@ -1,8 +1,3 @@
-let bars =document.querySelector(".navbar-toggler .fa-bars")
-document.querySelector(".navbar-toggler .fa-bars").onclick = () => {
-  console.log("yes");
-  bars.style.top = "10%"
-};
 let cartItem = document.querySelector(".cart-item-container");
 document.querySelector("#cart-btn").onclick = () => {
   cartItem.classList.toggle("active");
